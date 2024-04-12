@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Home Section Styles */
+.hero {
+    text-align: center;
+}
+.hero img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section Styles */
+.about-content {
+    margin-top: 20px;
+}
+
+/* Projects Section Styles */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.project {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+.project h3 {
+    margin-top: 0;
+}
+.project p {
+    margin-bottom: 0;
+}
+
+/* Contact Section Styles */
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 20px;
+}
+section#contact form input,
+section#contact form textarea,
+section#contact form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+section#contact form input[type="text"],
+section#contact form input[type="email"],
+section#contact form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+section#contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+section#contact form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
